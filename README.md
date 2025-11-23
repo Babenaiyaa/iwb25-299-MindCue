@@ -36,22 +36,27 @@ This project was built for the **“Innovate with Ballerina 2025”** competitio
 ```bash
 git clone https://github.com/your-username/mindcue.git
 cd mindcue
+```
 
 ### Frontend set up
 ```bash
 cd frontend
 npm install
 npm start
+```
 
 ### Backend
 ```bash
 cd backend
 bal run
+```
 
 (to run separate modules) 
+```bash
 bal run recommendation.bal
 bal run weather.bal
 bal run news.bal
+```
 
 ## Project Architecture
 ```bash
@@ -75,13 +80,14 @@ bal run news.bal
                ▼
       OpenWeather / Spotify / Gemini
 
-
+```
 
 ## 🤝 Team
 - Lead Developer: Babenaiyaa S
 - Weather/AI Modules: Lisorthman V
 - UI/UX & Content: Sinthujan S
 
-###Thank You for Exploring MindCue
+---
+### Thank You for Exploring MindCue
 Feel free to open issues or send PRs!
 If you use this project as a Ballerina learning reference, tag us. 🙌
